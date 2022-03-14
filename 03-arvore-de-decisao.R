@@ -1,13 +1,3 @@
-# Pacotes ------------------------------------------------------------------
-
-library(tidymodels)
-library(ISLR)
-library(tidyverse)
-library(modeldata)
-library(pROC)
-library(vip)
-library(skimr)
-
 # Exercício de Árvore de Decisão #########################################
 
 # Objetivo: refazer o modelo feito no exercício de regressão logística para
@@ -40,6 +30,7 @@ library(skimr)
 # 4) Crie códigos para comparar os dois modelos.
 #    (duas curvas roc no mesmo gráfico)
 
+# Setar seed
 set.seed(1)
 
 # Padronizar desfecho
